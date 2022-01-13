@@ -9,6 +9,6 @@ public class ArraysExercise1 {
     for(int number:numbers){
         sum=(1/number)+sum;//Calculate sum of harmonic numbers
     } 
-    System.out.println(sum/numbers.length);//Average of array
+    System.out.println(numbers.length/sum);//Average of array
 }
 }
